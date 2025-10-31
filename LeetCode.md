@@ -121,7 +121,7 @@
 ---
 
 ### ✅ Problem 10: Lowest Common Ancestor of a BST
-- **Difficulty:** � Medium
+- **Difficulty:** 🟡 Medium
 - **Pattern:** Binary Search Tree
 - [**Problem Link**](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - **Files:**
@@ -132,7 +132,69 @@
 
 ---
 
-## �📊 Progress Tracking
+## 🔥 Session 3: Advanced Patterns (Complete!)
+
+### ✅ Problem 11: Coin Change
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Dynamic Programming
+- [**Problem Link**](https://leetcode.com/problems/coin-change/)
+- **Files:**
+  - 📘 [Teaching Mode](files/11.Coin-Change-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/11.Coin-Change-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Unbounded knapsack, DP state definition, bottom-up table building, O(amount × n)
+
+---
+
+### ✅ Problem 12: Combination Sum
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Backtracking
+- [**Problem Link**](https://leetcode.com/problems/combination-sum/)
+- **Files:**
+  - 📘 [Teaching Mode](files/12.Combination-Sum-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/12.Combination-Sum-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Backtracking template (choose-explore-unchoose), decision trees, duplicate prevention
+
+---
+
+### ✅ Problem 13: Validate Binary Search Tree
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Tree Recursion
+- [**Problem Link**](https://leetcode.com/problems/validate-binary-search-tree/)
+- **Files:**
+  - 📘 [Teaching Mode](files/13.Validate-BST-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/13.Validate-BST-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Range validation, inorder traversal properties, recursive tree validation, O(n) time
+
+---
+
+### ✅ Problem 14: Kth Largest Element in an Array
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Heap / Quickselect
+- [**Problem Link**](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- **Files:**
+  - 📘 [Teaching Mode](files/14.Kth-Largest-Element-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/14.Kth-Largest-Element-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Min-heap for top K, quickselect algorithm, O(n) average selection, comparison of approaches
+
+---
+
+### ✅ Problem 15: Spiral Matrix
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Matrix Traversal
+- [**Problem Link**](https://leetcode.com/problems/spiral-matrix/)
+- **Files:**
+  - 📘 [Teaching Mode](files/15.Spiral-Matrix-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/15.Spiral-Matrix-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Layer-by-layer traversal, boundary tracking, direction simulation, O(m×n) matrix operations
+
+---
+
+## 📊 Progress Tracking
 
 ### Session 1: Foundation (Easy)
 
@@ -154,7 +216,17 @@
 | 9. Product Except Self | Prefix/Suffix | ☐ | ☐ | __/100 | ☐ |
 | 10. LCA of BST | BST | ☐ | ☐ | __/100 | ☐ |
 
-**Goal:** Score 90+ on all mock interviews before moving to Session 3!
+### Session 3: Advanced Patterns (Medium/Hard)
+
+| Problem | Pattern | Teaching ✓ | Mock ✓ | Score | Mastery |
+|---------|---------|-----------|---------|-------|---------|
+| 11. Coin Change | Dynamic Programming | ☐ | ☐ | __/100 | ☐ |
+| 12. Combination Sum | Backtracking | ☐ | ☐ | __/100 | ☐ |
+| 13. Validate BST | Tree Recursion | ☐ | ☐ | __/100 | ☐ |
+| 14. Kth Largest Element | Heap/Quickselect | ☐ | ☐ | __/100 | ☐ |
+| 15. Spiral Matrix | Matrix Traversal | ☐ | ☐ | __/100 | ☐ |
+
+**Goal:** Score 85+ on all mock interviews. Ready for technical interviews!
 
 ---
 
@@ -173,6 +245,13 @@
 - **Graph Traversal (DFS/BFS)** - Connected components, grid traversal
 - **Prefix/Suffix Arrays** - Left and right product accumulation
 - **Binary Search Trees** - Property-based navigation and search
+
+### Session 3 Patterns (Advanced):
+- **Dynamic Programming** - Optimal substructure, table building, unbounded knapsack
+- **Backtracking** - Explore all possibilities with state management, pruning
+- **Tree Recursion** - Range validation, inorder properties, recursive invariants
+- **Heap/Priority Queue** - Top K elements, min-heap maintenance, quickselect O(n)
+- **Matrix Traversal** - Layer-by-layer, boundary tracking, direction simulation
 
 ---
 
@@ -199,7 +278,12 @@
 ## 📚 Additional Resources
 
 - [COACHING-GUIDE.md](COACHING-GUIDE.md) - Complete system overview
-- [SESSION-1-PROGRESS.md](SESSION-1-PROGRESS.md) - Progress tracker
+- [SESSION-1-PROGRESS.md](files/SESSION-1-PROGRESS.md) - Session 1 tracker
+- [SESSION-1-COMPLETE-SUMMARY.md](files/SESSION-1-COMPLETE-SUMMARY.md) - Session 1 achievements
+- [SESSION-2-PROGRESS.md](files/SESSION-2-PROGRESS.md) - Session 2 tracker
+- [SESSION-2-COMPLETE-SUMMARY.md](files/SESSION-2-COMPLETE-SUMMARY.md) - Session 2 achievements
+- [SESSION-3-PROGRESS.md](files/SESSION-3-PROGRESS.md) - Session 3 tracker
+- [SESSION-3-COMPLETE-SUMMARY.md](files/SESSION-3-COMPLETE-SUMMARY.md) - Session 3 achievements
 
 ---
 
