@@ -194,7 +194,69 @@
 
 ---
 
-## 📊 Progress Tracking
+## � Session 4: Graph Algorithms & Design (Complete!)
+
+### ✅ Problem 16: Clone Graph
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Graph Traversal / Hash Map
+- [**Problem Link**](https://leetcode.com/problems/clone-graph/)
+- **Files:**
+  - 📘 [Teaching Mode](files/16.Clone-Graph-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/16.Clone-Graph-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Deep copy with DFS/BFS, hash map for visited tracking, cycle handling in graphs
+
+---
+
+### ✅ Problem 17: Course Schedule
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Topological Sort / Cycle Detection
+- [**Problem Link**](https://leetcode.com/problems/course-schedule/)
+- **Files:**
+  - 📘 [Teaching Mode](files/17.Course-Schedule-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/17.Course-Schedule-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Kahn's algorithm (BFS + in-degrees), DFS with 3 colors (white/gray/black), dependency resolution
+
+---
+
+### ✅ Problem 18: Binary Tree Level Order Traversal
+- **Difficulty:** 🟡 Medium
+- **Pattern:** BFS / Queue
+- [**Problem Link**](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- **Files:**
+  - 📘 [Teaching Mode](files/18.Binary-Tree-Level-Order-Traversal-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/18.Binary-Tree-Level-Order-Traversal-Mock-Interview-Mode.md)
+
+**What You'll Learn:** BFS with queue, level separation by snapshot, O(w) space complexity
+
+---
+
+### ✅ Problem 19: Implement Trie (Prefix Tree)
+- **Difficulty:** 🟡 Medium
+- **Pattern:** Design / Tree / String
+- [**Problem Link**](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- **Files:**
+  - 📘 [Teaching Mode](files/19.Implement-Trie-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/19.Implement-Trie-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Trie data structure design, node with children map, O(m) insert/search/startsWith operations
+
+---
+
+### ✅ Problem 20: Word Search
+- **Difficulty:** 🟡 Medium
+- **Pattern:** 2D Backtracking / DFS
+- [**Problem Link**](https://leetcode.com/problems/word-search/)
+- **Files:**
+  - 📘 [Teaching Mode](files/20.Word-Search-Teaching-Mode.md)
+  - 🎤 [Mock Interview Mode](files/20.Word-Search-Mock-Interview-Mode.md)
+
+**What You'll Learn:** Grid backtracking, mark visited + explore + undo, 4-direction DFS with state management
+
+---
+
+## �📊 Progress Tracking
 
 ### Session 1: Foundation (Easy)
 
@@ -226,7 +288,17 @@
 | 14. Kth Largest Element | Heap/Quickselect | ☐ | ☐ | __/100 | ☐ |
 | 15. Spiral Matrix | Matrix Traversal | ☐ | ☐ | __/100 | ☐ |
 
-**Goal:** Score 85+ on all mock interviews. Ready for technical interviews!
+### Session 4: Graph Algorithms & Design (Medium)
+
+| Problem | Pattern | Teaching ✓ | Mock ✓ | Score | Mastery |
+|---------|---------|-----------|---------|-------|---------|
+| 16. Clone Graph | Graph/Hash Map | ☐ | ☐ | __/100 | ☐ |
+| 17. Course Schedule | Topological Sort | ☐ | ☐ | __/100 | ☐ |
+| 18. Level Order Traversal | BFS/Queue | ☐ | ☐ | __/100 | ☐ |
+| 19. Implement Trie | Design/Tree | ☐ | ☐ | __/100 | ☐ |
+| 20. Word Search | 2D Backtracking | ☐ | ☐ | __/100 | ☐ |
+
+**Goal:** Score 85+ on all mock interviews. Ready for FAANG!
 
 ---
 
@@ -252,6 +324,13 @@
 - **Tree Recursion** - Range validation, inorder properties, recursive invariants
 - **Heap/Priority Queue** - Top K elements, min-heap maintenance, quickselect O(n)
 - **Matrix Traversal** - Layer-by-layer, boundary tracking, direction simulation
+
+### Session 4 Patterns (Graph & Design):
+- **Graph Cloning** - Deep copy with DFS/BFS, hash map tracking, cycle handling
+- **Topological Sort** - Kahn's algorithm, cycle detection, dependency resolution
+- **BFS Level Order** - Queue-based tree traversal, level separation by snapshot
+- **Trie Data Structure** - Prefix tree design, node with children map, O(m) operations
+- **2D Grid Backtracking** - Mark visited + explore + undo, 4-direction DFS
 
 ---
 
@@ -284,6 +363,8 @@
 - [SESSION-2-COMPLETE-SUMMARY.md](files/SESSION-2-COMPLETE-SUMMARY.md) - Session 2 achievements
 - [SESSION-3-PROGRESS.md](files/SESSION-3-PROGRESS.md) - Session 3 tracker
 - [SESSION-3-COMPLETE-SUMMARY.md](files/SESSION-3-COMPLETE-SUMMARY.md) - Session 3 achievements
+- [SESSION-4-PROGRESS.md](files/SESSION-4-PROGRESS.md) - Session 4 tracker
+- [SESSION-4-COMPLETE-SUMMARY.md](files/SESSION-4-COMPLETE-SUMMARY.md) - Session 4 achievements
 
 ---
 
